@@ -1,0 +1,26 @@
+REGALO INTERACTIVO — INSTRUCCIONES
+
+1. Abre la carpeta en Visual Studio Code.
+2. Añade tus fondos dentro de assets/ con estos nombres EXACTOS:
+   fondoheavenly.png
+   fondoentombed.png
+   fondoloco.png
+   fondoalmadinamita.png
+   fondomykindofwoman.png
+   fondohoneybee.png
+3. Añade tu grabación como assets/audio-final.mp3
+4. Abre index.html en el navegador (mejor con Live Server).
+5. Para editar las cartas, abre script.js y cambia los textos de la constante LETTERS.
+
+NOTAS:
+- Honeybee tiene un fondo provisional: coloca tu fondo final como fondohoneybee.png.
+- Los fondos de las primeras cinco canciones NO están incluidos; los añades tú.
+- El proyecto ya tiene estructura responsive para computadora y celular.
+- La fuente cursiva usa Google Fonts si hay internet; hay alternativas si no carga.
+- La reproducción automática del audio puede ser bloqueada por el navegador; se muestran controles como alternativa.
+
+ACTUALIZACIÓN
+- My Kind of Woman: atrapa 10 corazones; si pulsas una manzana, fresa, rosa u otro objeto que no sea corazón, pierdes esa ronda y puedes volver a empezar.
+- Honeybee: el audio final se repite automáticamente mientras la página siga abierta (si el navegador permite reproducirlo; puede ser necesario pulsar una vez por las reglas de audio del navegador).
+- La carta final tiene un resplandor cálido y suave y es translúcida para dejar ver el fondo.
+- Puedes usar un GIF como fondo de Honeybee. Guarda el archivo en assets/fondohoneybee.gif y en script.js cambia, en el capítulo Honeybee, bg:'assets/fondohoneybee.png' por bg:'assets/fondohoneybee.gif'. El navegador reproducirá el GIF como fondo animado. Conserva el PNG si quieres volver al fondo estático.
